@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex Turismos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
   <body>
     <header>
-      <section class="menu">
+      <section id="menu" class="container">
         <div>
           <h1>FlexTurismos</h1>
         </div>
@@ -20,11 +25,11 @@
       </section>
     </header>
 
-    <section class="presentation">
+    <section id="presentation" class="container">
       <div class="text-presentation">
         <h1>Flex <br />Turismos</h1>
         <p>O melhor serviço para você!</p>
-        <a href="">Saiba Mais!</a>
+        <a class="button" href="">Saiba Mais!</a>
       </div>
 
       <div>
@@ -34,7 +39,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="container">
       <div>
         <img
           src="./assets/images/1-quem-somos.png"
@@ -56,82 +61,93 @@
       </div>
     </section>
 
-    <section>
-      <div>
-        <h2>Serviços</h2>
-      </div>
-
-      <div>
+    <section id="services">
+      <div class="container">
         <div>
-          <div><img src="./assets/images/icon-2.png" alt="hospedagens" /></div>
-          <p>Hospedagens</p>
-          <a href="#">Comprar Agora</a>
+          <h2>Serviços</h2>
         </div>
 
-        <div>
-          <div>
-            <img src="./assets/images/icon-1.png" alt="pacote de viagens" />
+        <div class="services-list">
+          <div class="services-item">
+            <div>
+              <img src="./assets/images/icon-2.png" alt="hospedagens" />
+            </div>
+            <p>Hospedagens</p>
+            <a href="#">Comprar Agora</a>
           </div>
-          <p>Pacotes de viagens</p>
-          <a href="#">Comprar Agora</a>
-        </div>
 
-        <div>
-          <div>
-            <img
-              src="./assets/images/icon-3.png"
-              alt="roteiros personalizados"
-            />
+          <div class="services-item">
+            <div>
+              <img src="./assets/images/icon-1.png" alt="pacote de viagens" />
+            </div>
+            <p>Pacotes de viagens</p>
+            <a href="#">Comprar Agora</a>
           </div>
-          <p>Roteiros personalizados</p>
-          <a href="#">Comprar Agora</a>
+
+          <div class="services-item">
+            <div>
+              <img
+                src="./assets/images/icon-3.png"
+                alt="roteiros personalizados"
+              />
+            </div>
+            <p>Roteiros personalizados</p>
+            <a href="#">Comprar Agora</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section id="plans" class="container">
       <div>
-        <h3>Plano 2</h3>
-        <ul>
-          <li>Suporte 24h</li>
-          <li>Serviços de quarto</li>
-          <li>Guia turístico</li>
-        </ul>
-        <a href="#">Saiba Mais!</a>
+        <h2>Planos</h2>
       </div>
+      <div class="plans-list">
+        <div class="plans-item">
+          <h3>Plano 1</h3>
+          <ul>
+            <li>Suporte 24h</li>
+            <li>Guia turístico</li>
+            <li>Serviço personalizado</li>
+          </ul>
+          <a class="button" href="#">Saiba Mais!</a>
+        </div>
 
-      <div>
-        <h3>Plano 2</h3>
-        <ul>
-          <li>Suporte 24h</li>
-          <li>Serviços de quarto</li>
-          <li>Guia turístico</li>
-          <li>Roteiro de trilhas</li>
-          <li>Serviço personalizado</li>
-        </ul>
-        <a href="#">Saiba Mais!</a>
-      </div>
+        <div class="plans-item">
+          <h3>Plano 2</h3>
+          <ul>
+            <li>Suporte 24h</li>
+            <li>Serviços de quarto</li>
+            <li>Guia turístico</li>
+            <li>Roteiro de trilhas</li>
+            <li>Serviço personalizado</li>
+          </ul>
+          <a class="button" href="#">Saiba Mais!</a>
+        </div>
 
-      <div>
-        <h3>Plano 3</h3>
-        <ul>
-          <li>Suporte 24h</li>
-          <li>Serviços de quarto</li>
-          <li>Guia turístico</li>
-          <li>Roteiro de trilhas</li>
-          <li>Serviço personalizado</li>
-          <li>Área Vip</li>
-        </ul>
-        <a href="#">Saiba Mais!</a>
+        <div class="plans-item">
+          <h3>Plano 3</h3>
+          <ul>
+            <li>Suporte 24h</li>
+            <li>Serviços de quarto</li>
+            <li>Guia turístico</li>
+            <li>Roteiro de trilhas</li>
+            <li>Serviço personalizado</li>
+            <li>Área Vip</li>
+          </ul>
+          <a class="button" href="#">Saiba Mais!</a>
+        </div>
       </div>
     </section>
 
     <footer>
-      <p>&copy; 2021 CSS Flexbox</p>
-      <p>
-        Desenvolvido por
-        <a href="https://vargastm.com" target="_blank">vargastm</a>
-      </p>
+      <div class="container">
+        <p>&copy; 2022 FlexTurismos</p>
+        <p>
+          Desenvolvido por
+          <a href="https://vargastm.com" target="_blank">vargastm</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>
