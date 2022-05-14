@@ -17,4 +17,4 @@ This project was developed with the following technologies:
 
 ### 👨‍💻 Development
 
-Developed with 💜 by **Tiago Martins Vargas** and all thanks to **Rocketseat** for the **NLW together**.
+Developed with 💜 by **Tiago Martins Vargas**
